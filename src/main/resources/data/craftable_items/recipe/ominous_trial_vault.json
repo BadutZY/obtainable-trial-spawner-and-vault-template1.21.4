@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#V#",
+    "#D#"
+  ],
+  "key": {
+    "#": "minecraft:chain",
+    "D": "minecraft:diamond_block",
+    "V": "minecraft:vault"
+  },
+  "result": {
+    "id": "minecraft:vault",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "ominous": "true"
+      },
+      "minecraft:block_entity_data": {
+        "id": "minecraft:vault",
+        "config": {
+          "key_item": {
+            "id": "minecraft:ominous_trial_key",
+            "count": 1
+          },
+          "loot_table": "minecraft:chests/trial_chambers/reward_ominous"
+        }
+      }
+    }
+  }
+}

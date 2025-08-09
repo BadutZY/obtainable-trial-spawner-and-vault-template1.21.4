@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "trial-chamber",
+	"version": "1.0.0",
+	"name": "Obtainable Trial Chamber",
+	"description": "Make blocks in the Trial Chamber like Vault and Trial Spawner Obtainable",
+	"authors": [
+		"BadutZY"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/BadutZY"
+	},
+	"license": "MIT",
+	"icon": "assets/trialchamber/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.trialchamber.TrialChamber"
+		],
+		"fabric-datagen": [
+			"com.example.trialchamber.TrialChamberDataGenerator"
+		],
+		"client": [
+			"com.example.trialchamber.TrialChamber"
+		]
+	},
+	"mixins": [
+		"trialchamber.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

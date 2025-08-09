@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "X#X",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:trial_key",
+    "P": "minecraft:copper_block",
+    "X": "minecraft:oxidized_copper"
+  },
+  "result": {
+    "id": "minecraft:ominous_trial_key",
+    "count": 1
+  }
+}

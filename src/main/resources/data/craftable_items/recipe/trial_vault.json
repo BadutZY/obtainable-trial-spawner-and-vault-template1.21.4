@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#V#",
+    "#D#"
+  ],
+  "key": {
+    "#": "minecraft:chain",
+    "D": "minecraft:diamond_block",
+    "V": "minecraft:trial_key"
+  },
+  "result": {
+    "id": "minecraft:vault",
+    "count": 1
+  }
+}

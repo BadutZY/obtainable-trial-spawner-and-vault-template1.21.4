@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P#P",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:copper_block",
+    "P": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:trial_key",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CSC",
+    "#B#"
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "B": "minecraft:copper_block",
+    "S": "minecraft:trial_key",
+    "C": "minecraft:chain"
+  },
+  "result": {
+    "id": "minecraft:trial_spawner",
+    "count": 1
+  }
+}

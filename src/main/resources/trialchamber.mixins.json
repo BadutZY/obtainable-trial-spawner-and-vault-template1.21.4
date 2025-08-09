@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.example.trialchamber.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BlockHardnessMixin",
+		"TrialVaultServerDataAccessor",
+		"TrialVaultServerDataMixin",
+		"TrialVaultSharedDataMixin",
+		"TrialVaultServerMixin",
+		"VaultBlockEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
